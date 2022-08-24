@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,33 +8,34 @@
     <title>Guessing Game</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-   
+
     <div class="container">
         <div class="card">
-                <div class="card-title">
-        <h1>Guessing Game</h1>
-                </div>
-                <div class="card-body">
-                    <form>
-                        <div class="form-field">
-                        
-                            <label for="guessingNumber">Guess a number between 1-5:</label>
-                            <input required id="guessingNumber" min="1" max="5" type="number">
-                            <div class="buttons">
+            <div class="card-title">
+                <h1>Guessing Game</h1>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="form-field">
+
+                        <label for="guessingNumber">Guess a number between 1-5:</label>
+                        <input required id="guessingNumber" min="1" max="5" type="number">
+                        <div class="buttons">
                             <button class="button" id="check-button" type="submit">Check Result</button>
-                            </div>
-                        
+                        </div>
                     </div>
-                    </form>
-                    <p class="result-text"></p>
-                    <p class="remaining-attempt"></p>
-                </div>
+                </form>
+                <p class="result-text"></p>
+                <p class="remaining-attempt"></p>
+            </div>
         </div>
     </div>
 
 
-    
+
     <script src="./script.js"></script>
 </body>
+
 </html>

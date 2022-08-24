@@ -30,9 +30,7 @@ align-items: center;
     color: white;
     margin-bottom: 1rem;
 }
-.form-field{
-    /* margin-bottom: 1rem; */
-}
+
 input{
     border: none;
     border: 0.1rem solid;
